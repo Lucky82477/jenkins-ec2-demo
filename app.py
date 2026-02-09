@@ -1,10 +1,10 @@
-from flask import Flask
+ullyfrom flask import Flask
 
 app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Jenkins Pipeline is WORKING on EC2 🚀"
+    return "Jenkins Pipeline is WORKING on EC2 sucessfully 🚀"
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
